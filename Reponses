@@ -1,6 +1,6 @@
 1 Cette solution ne respecte pas LSP car un Robot a la possibilité d'avancer mais le RobotStatique qui en hérite n'a pas cette possibilité
 
-2 public void avancer_tous(ArrayList<Robots> robots) {
+2 public void avancer_tous(ArrayList<Robot> robots) {
 		for(int i=0; i<robots.size();i++) {
 			robots.get(i).avance();
 		}
